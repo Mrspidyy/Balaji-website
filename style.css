@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outbox{
+    border: solid 1px;
+    height:  150px;
+    display: flex;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 150px;
+
+}
+#in1{
+    width: 150px;
+}
+#in2{
+    width: 870px;
+    text-align: center;
+    text-shadow: rebeccapurple;
+}
+#in3{
+    width: 330px;
+}
+#clgname{
+    font-size: 43px;
+    color: brown;
+}
+#name1{
+    font-size: 20px;
+    color: rgb(255, 145, 0);
+}
+#scrolltext{
+    font-size: 30px;
+    color: rgb(155, 42, 165);
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 162px;
+    float: left;
+    background-color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    font-size: 45px;
+    color: rgba(118, 16, 212, 0.815);
+    text-decoration: none;
+}
+ul li ul li{
+    display: none ;
+}
+ul li:hover ul li{
+    display: block;
+}
+.outerbox{
+    border: solid 1px;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 350px;
+    z-index: -1;
+}
+#inbox1{
+    width: 600px;
+    background-image: url(bhabhubali.jpg);
+    background-position: no-repeat;
+    background-size: 600px 350px;
+    animation-duration: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+0%{
+    background-image: url(ironman.jpg);
+}
+10%{
+    background-image: url(rebel.jpg);
+}
+20%{
+    background-image: url(bhaai.jpg);
+}
+}
+#inbox2,#imbox3{
+    width: 250px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#inbox1,#inbox2,#inbox3{
+    border:solid 1px ;
+    height: 360px;
+
+}
+#inbox{
+    width: 500px;
+}
+
+
+
